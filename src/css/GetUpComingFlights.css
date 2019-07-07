@@ -1,0 +1,53 @@
+h3 {
+  font-size: 15px !important
+}
+
+.fly-block {
+  display: flex;
+}
+
+.flight-list {
+  margin: 3rem 0;
+  padding: 0;
+}
+
+.flight-list li {
+  display: block;
+  background-color: bisque;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 12px 0px rgba(171, 154, 154, 0.75);
+}
+
+.info-block {
+  padding: 1rem 2rem;
+}
+
+.airport-info {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.Pnl-info {
+  display: flex;
+}
+
+.pnl-name {
+  width: 15rem;
+}
+
+.departure {
+  padding-right: 3rem;
+  width: 15rem;
+}
+
+.img-block {
+  background-image: url("../assets/img/img.png");
+  background-position: 0px 0%;;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  width: 6rem;
+  height: 6rem;
+}

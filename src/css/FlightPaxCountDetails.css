@@ -1,0 +1,62 @@
+.count-details {
+  padding: 0;
+}
+
+.count-details li {
+  display: flex;
+  margin: 1rem 0rem;
+  background-color: bisque;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 12px 0px rgba(171, 154, 154, 0.75)
+}
+
+.left-box .name-item {
+  border-right: solid 1px slategray;
+}
+
+.name-item {
+  display: flex;
+  width: 20rem;
+  border-bottom: solid 1px slategray;
+}
+
+.date {
+  font-size: 17px;
+  font-style: italic;
+  color: red;
+  font-weight: 800;
+  border-bottom: none;
+}
+
+.hotel {
+  font-style: italic;
+  color: red;
+  font-weight: 800;
+}
+
+.name-item p {
+  width: 12rem;
+  margin: 0.5rem;
+}
+
+.name-item span {
+  margin: 0.5rem;
+}
+
+.results .name-item {
+  width: 25rem;
+  height: 50px;
+}
+
+.results .name-item p {
+  width: 9rem;
+  margin: 0.5rem;
+  font-size: 12px;
+}
+
+.results .name-item span {
+  margin: 0.5rem;
+  font-size: 12px;
+}

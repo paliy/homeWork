@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.bg-my {
+  background-color: #b6c7d8;
+}
+
+.nav-link {
+  font-weight: 700;
+  color: rgba(0,0,0,.3);
+}
+
+.active-link, .disabled-link {
+  color: white !important;
+  text-decoration: none !important;
+  cursor: unset;
+}
+
+.active-link:hover, .disabled-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.card-body {
+  margin: 0 auto;
+}
+
+.card {
+  margin-top: 15%;
+  border: none !important
+}
+
+.btn-auth {
+  margin-bottom: 0.5rem;
+  width: 100%
+}

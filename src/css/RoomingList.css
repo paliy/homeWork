@@ -1,0 +1,35 @@
+.data-box {
+  display: flex;
+  margin: 3rem 0;
+}
+
+.data-form {
+  width: 20%;
+  margin-right: 20px
+}
+
+.response-box {
+  width: 80%;
+}
+
+.DayPickerInput {
+  width: 100%;
+}
+
+.DayPickerInput input {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 5px;
+  background-color: #f8f8f8;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+select {
+  width: 100%;
+  height: 35px;
+  border-radius: 0;
+  border: solid 1px lightgray;
+  margin-bottom: 5px !important
+}

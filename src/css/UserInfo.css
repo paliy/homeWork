@@ -1,0 +1,38 @@
+.user-img-block, .user-info-block {
+  margin-right: 3rem;
+  position: relative;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+  padding: 1rem;
+}
+
+.user-info-block {
+  width: 100%;
+  margin-right: 0
+}
+
+.user-img-block .user-img{
+  background-image: url("../assets/img/user.jpg");
+  background-position: 0px 0%;;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  width: 10rem;
+  height: 10rem;
+}
+
+.user-name {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e7e8ec;
+}
+
+.user-info h6 {
+  font-size: 13px;
+  color: #828282;
+}
+
+.user-info .item-name {
+  width: 150px;
+  display: inline-block;
+}
