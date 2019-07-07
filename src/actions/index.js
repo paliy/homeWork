@@ -41,13 +41,6 @@ export const receive_error = (err) => {
   };
 };
 
-function getCookieOptions(expiresIn = (30 * 60 * 1000)) {
-  const expires = new Date()
-  expires.setDate(expires.getDate() + expiresIn)
-
-  return {expires, path: '/'}
-}
-
 export const loginUser = authData => {
   store.dispatch(fetch_token());
   return function(dispatch, getState) {

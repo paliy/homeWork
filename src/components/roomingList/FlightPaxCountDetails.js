@@ -8,10 +8,11 @@ class FlightPaxCountDetails extends Component {
 
   render() {
     const {FlightPaxCountDetails} = this.props.data.roomingList
+    const CountDetails = FlightPaxCountDetails ? FlightPaxCountDetails : []
 
     return (
       <ul className='count-details'>
-        {FlightPaxCountDetails.sort().map(this.getItemList)}
+        {CountDetails.sort().map(this.getItemList)}
       </ul>
     );
   }
