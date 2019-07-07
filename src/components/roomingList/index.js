@@ -69,7 +69,7 @@ class RoomingList extends Component {
   }
 
   activeLink = () => {
-    if (history.location.pathname === '/rooming-list/flight-pax-count-details' || '/rooming-list')
+    if (history.location.pathname === '/rooming-list/flight-pax-count-details')
       return 'active-1'
 
     if (history.location.pathname === '/rooming-list/pax-count-details')
