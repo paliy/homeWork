@@ -10,7 +10,7 @@ class ReservationPaxCountDetails extends Component {
 
     return (
       <ul className='count-details'>
-        {ReservationPaxCountDetails.slice(410).sort().map(this.getItemList)}
+        {ReservationPaxCountDetails.sort().map(this.getItemList)}
       </ul>
     );
   }
