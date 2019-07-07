@@ -99,9 +99,12 @@ class RoomingList extends Component {
         <Results />
       )
 
-    return (
-      <FlightPaxCountDetails />
-    )
+    if (this.props.data.roomingList)
+      return (
+        <FlightPaxCountDetails />
+      )
+
+    return <div />
   }
 
   handleSubmit = event => {
