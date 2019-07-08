@@ -21,6 +21,13 @@ class RoomingList extends Component {
 
   render() {
     const data = this.props.data.upcamingFlights
+    const seen = new Set();
+
+    const filteredArr = data.filter(el => {
+      const duplicate = seen.has(el.DepartureAirport.Code);
+      seen.add(el.DepartureAirport.Code);
+      return !duplicate;
+    });
 
     return (
       <div className='container'>
@@ -28,13 +35,13 @@ class RoomingList extends Component {
         <div className='data-box'>
           <form className='data-form' onSubmit={this.handleSubmit}>
            <select ref={input => this.DepartureAirport = input} name = "dropdown">
-              {data.sort().map(this.getDepartureAirportItems)}
+              {filteredArr.sort().map(this.getDepartureAirportItems)}
            </select>
            <select ref={input => this.ArrivalAirport = input} name = "dropdown">
-              {data.sort().map(this.getArrivalAirportItems)}
+              {filteredArr.sort().map(this.getArrivalAirportItems)}
            </select>
            <select ref={input => this.PnlName = input} name = "dropdown">
-              {data.sort().map(this.getPnlNameItems)}
+              {filteredArr.sort().map(this.getPnlNameItems)}
            </select>
            <DayPickerInput
               dayPickerProps={{
