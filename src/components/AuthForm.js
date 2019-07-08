@@ -47,7 +47,7 @@ class AuthForm extends Component {
   render() {
 
     return (
-      <div className="card row">
+      <div className="container card row">
         <div className="card-body col-sm-5">
           <h2 className="card-title mb-5 text-center">Auth User</h2>
           <form onSubmit={this.handleSubmit}>

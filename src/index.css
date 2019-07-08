@@ -34,14 +34,23 @@ code {
 
 .card-body {
   margin: 0 auto;
+  background-color: white;
 }
 
 .card {
-  margin-top: 5%;
-  border: none !important
+  margin: 0 auto !important;
+  border: none !important;
+  background-color: transparent !important;
 }
 
 .btn-auth {
   margin-bottom: 0.5rem;
   width: 100%
+}
+
+.particles-content {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  margin-top: 5%;
 }
