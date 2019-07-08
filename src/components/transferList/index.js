@@ -60,7 +60,7 @@ class TransferList extends Component {
           </form>
           <div className='response-box'>
             {this.renderNavList()}
-            <h4>No results</h4>
+            <h4>API return empty array on this req</h4>
           </div>
         </div>
       </div>
